@@ -1,0 +1,26 @@
+
+
+/* Example styles for Navbar */
+
+/* Customize Navbar background and text color */
+.navbar {
+    background-color: #343a40; /* dark background */
+    display: flex;
+  justify-content: space-around; /* Para distribuir los enlaces con espacio igual */
+
+  }
+  
+  .navbar-brand {
+    font-size: 0.5rem; /* increase brand font size */
+    font-weight: bold; /* make brand text bold */
+  }
+
+  .nose{
+    margin: 10 100px; /* Ajusta el valor según el espacio que necesites */
+  text-decoration: none; /* Quitar el subrayado */
+  color: inherit; /* Mantener el color del texto actual */
+
+  }
+  
+  
+  

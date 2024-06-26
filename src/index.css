@@ -1,0 +1,29 @@
+/* index.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Asegúrate de tener la fuente correcta */
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh; /* Ocupa al menos la altura de la pantalla */
+    color: #ffffff; /* Color del texto blanco */
+    text-align: center; /* Texto centrado */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
+    overflow: hidden; /* Evita scroll */
+    background: url('./Component/Assets/Assets/background8.gif') no-repeat center center fixed;
+    background-size: cover; /* Asegura que el GIF cubra toda la pantalla */
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1; /* Coloca el contenido sobre el fondo */
+  }
+  
+  /* Otros estilos según sea necesario */
+  
